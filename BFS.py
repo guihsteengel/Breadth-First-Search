@@ -53,6 +53,6 @@ if __name__ == '__main__':
 # Aqui ele solicita que o viajante/usuário defina sua origem e seu destino.
     starting_city = input("Escolha o seu ponto de partida \n")
     final_city = input("Escolha o seu ponto de parada: \n")
-    print("\n****************************************")
+    print("\n")
     
     bfs(graph, starting_city, final_city)
